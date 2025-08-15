@@ -16,25 +16,32 @@ Prompt-Task-Engineering is a Python-based automation framework designed to strea
 
 🏗️ Folder Structure
 
+A common folder structure for a small to medium-sized project is as follows:
+
+```
 project/
-├── main.py                     # Core workflow script
-├── prompts/
-│   ├── extraction_prompt.txt   # Prompt for AI-based content extraction
-│   └── planner_prompt.txt      # Prompt for AI-based planner creation
-├── utils/
-│   ├── pdf_parser.py           # Handles PDF text extraction
-│   ├── ai_interface.py         # Manages AI (LLM) interactions
-│   ├── excel_generator.py      # Generates Excel files
-│   └── knowledge_graph.py      # Logic for knowledge graph data preparation
-├── data/
-│   ├── downloaded_pdfs/        # Stores downloaded PDF files
-│   ├── extracted_json/         # Stores AI-extracted structured content in JSON
-│   ├── output_excel/           # Stores generated Excel sheets
-│   ├── output_kg/              # Stores knowledge graph data (e.g., text representations)
-│   ├── output_planner/         # Stores generated Markdown study planners
-│   └── documentation/          # Stores full workflow documentation and prompt history
-
-
+├── .github/          # GitHub-specific files (e.g., issue templates, workflows)
+├── .vscode/          # VS Code editor settings and extensions
+├── notebooks/        # Jupyter notebooks for exploration and analysis
+├── data/             # All data files, separated into raw, processed, and external
+│   ├── raw/
+│   ├── processed/
+│   └── external/
+├── src/              # Source code for the project
+│   ├── __init__.py
+│   ├── main.py       # Main entry point of the application
+│   ├── config.py     # Configuration settings
+│   ├── utils.py      # Utility functions
+│   └── models/       # Machine learning models or data models
+├── tests/            # Unit and integration tests
+│   ├── __init__.py
+│   └── test_main.py
+├── docs/             # Documentation for the project
+├── .gitignore        # Files and folders to be ignored by Git
+├── requirements.txt  # Project dependencies
+├── README.md         # Project description and instructions
+└── setup.py          # Script for packaging and distributing the project
+```
 ---
 
 ## 🛠️ Technologies Used
