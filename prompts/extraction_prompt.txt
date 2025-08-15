@@ -1,0 +1,59 @@
+```json
+{
+  "chapter_title": "TITLE OF THE CHAPTER",
+  "content": [
+    {
+      "type": "topic",
+      "name": "Topic Name 1",
+      "elements": [
+        {
+          "type": "paragraph",
+          "text": "This is the text of a paragraph under Topic Name 1."
+        },
+        {
+          "type": "sub_topic",
+          "name": "Sub-topic Header 1.1",
+          "elements": [
+            {
+              "type": "paragraph",
+              "text": "Paragraph under Sub-topic Header 1.1."
+            },
+            {
+              "type": "image",
+              "description": "Description of the image content.",
+              "caption": "Image Caption 1."
+            },
+            {
+              "type": "example",
+              "text": "An example explaining a concept."
+            },
+            {
+              "type": "table",
+              "caption": "Table 1: Data overview.",
+              "rows": [
+                ["Header 1", "Header 2"],
+                ["Row 1, Col 1", "Row 1, Col 2"]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "activity",
+          "description": "Description of Activity 1.",
+          "steps": ["Step 1", "Step 2"]
+        },
+        {
+          "type": "question",
+          "text": "What is the primary function of...?"
+        }
+      ]
+    },
+    {
+      "type": "topic",
+      "name": "Topic Name 2",
+      "elements": [
+        // ... more content
+      ]
+    }
+  ]
+}
