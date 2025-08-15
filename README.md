@@ -66,16 +66,15 @@ project/
 
 ---
 
-## 📦 How to Run
+📦 How to Run
 
-### 1️⃣ Install Requirements
-```bash
+1️⃣ Install Requirements
 pip install google-generativeai chromadb sentence-transformers PyPDF2 openpyxl
 
 ### 2️⃣ Set Your Gemini API Key
 set GEMINI_API_KEY=your_google_generative_ai_key
 
-```bash
+### 3️⃣ Run the Workflow
 python main.py
 
 ---
