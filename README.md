@@ -14,9 +14,8 @@ Prompt-Task-Engineering is a Python-based automation framework designed to strea
 - 📝 Markdown-based study planners
 - 📚 Complete documentation with used prompts and workflow summary
 
-## 🏗️ Folder Structure
+🏗️ Folder Structure
 
-project/
 ├── main.py # Core workflow script
 ├── prompts/
 │ ├── extraction_prompt.txt # Prompt for AI-based content extraction
@@ -81,18 +80,18 @@ python main.py
 
 
 ## 🧾 Example Output
---- Step 1: Scraping content from the web ---
+Step 1: Scraping content from the web 
 Successfully scraped and read the original chapter text.
 
---- Step 2: Initializing ChromaDB for versioning ---
+Step 2: Initializing ChromaDB for versioning 
 Original chapter version stored in ChromaDB.
 
---- Step 3: AI writing and review cycle ---
+Step 3: AI writing and review cycle 
 AI draft 1 created and stored.
 AI Reviewer Feedback:
---- The rewritten text flows better but loses some original context in paragraph 2. Consider restoring the metaphors. ---
+The rewritten text flows better but loses some original context in paragraph 2. Consider restoring the metaphors. ---
 
---- Step 4: Human-in-the-Loop review ---
+Step 4: Human-in-the-Loop review 
 Please provide your edits or 'approve':
 
 ---
