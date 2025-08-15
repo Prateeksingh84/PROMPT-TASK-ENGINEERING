@@ -16,15 +16,19 @@ Prompt-Task-Engineering is a Python-based automation framework designed to strea
 
 🏗️ Folder Structure
 
-├── main.py # Core workflow script
+├── main.py 
+# Core workflow script
+
 ├── prompts/
 │ ├── extraction_prompt.txt # Prompt for AI-based content extraction
 │ └── planner_prompt.txt # Prompt for AI-based planner creation
+
 ├── utils/
 │ ├── pdf_parser.py
 │ ├── ai_interface.py
 │ ├── excel_generator.py
 │ └── knowledge_graph.py
+
 ├── data/
 │ ├── downloaded_pdfs/
 │ ├── extracted_json/
@@ -32,6 +36,7 @@ Prompt-Task-Engineering is a Python-based automation framework designed to strea
 │ ├── output_kg/
 │ ├── output_planner/
 │ └── documentation/
+
 └── README.md
 
 
@@ -98,9 +103,11 @@ Please provide your edits or 'approve':
 
 📄 Sample Prompts
 Extraction Prompt:
+
 (Contents of prompts/extraction_prompt.txt)
 
 Planner Prompt:
+
 (Contents of prompts/planner_prompt.txt)
 
 
